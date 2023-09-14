@@ -1,1 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+// font-family: 'Manrope', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap');
+// font-family: 'Noto Sans Thai', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+// font-family: 'Prompt', sans-serif;
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    font-family: Manrope;
+    color: #fff;
+
+}
+
+body {
+    width: 1920px; 
+    height: 100vh;
+    overflow: hidden;
+}
+
+.ff {
+    &-prompt {
+        font-family: 'Prompt' !important;
+    }
+    &-noto {
+        font-family: 'Noto Sans Thai' !important;
+    }
+    &-manrope {
+        font-family: 'Manrope' !important;
+    }
+}
+
+
+.fz {
+    &-20 {
+        font-size: 20px;
+    }
+    &-24 {
+        font-size: 24px;
+    }
+    &-30 {
+        font-size: 30px;
+    }
+    &-36 {
+        font-size: 36px;
+    }
+    &-48 {
+        font-size: 48px;
+    }
+    &-50 {
+        font-size: 50px;
+    }
+    &-140 {
+        font-size: 140px;
+    }
+}
+
+.fc {
+    &-sky {
+        color: #4995FF;
+    }
+    &-blue {
+        color: #4995FF;
+    }
+}
+
+.ww {
+    &-40 {
+        width: 40px;
+    }
+    &-89 {
+        width: 89px;
+    }
+    &-116 {
+        width: 116px;
+    }
+}
